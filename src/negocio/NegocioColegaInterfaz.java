@@ -14,4 +14,5 @@ public interface NegocioColegaInterfaz {
 	public void insertarUnColega(Colega colega) throws SQLException;
 	public void insertarVariosColegas(ArrayList<Colega> listaColegas) throws SQLException;
 	public void buscarColega(int id) throws SQLException;
+	public void borrarColega(int id) throws SQLException;
 }

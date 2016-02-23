@@ -55,4 +55,7 @@ public class NegocioColega implements NegocioColegaInterfaz {
 		Colega colega = dao.consulta(id);
 		System.out.println(colega);
 	}
+	public void borrarColega(int id) throws SQLException{
+		dao.baja(id);
+	}
 }

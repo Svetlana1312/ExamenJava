@@ -38,6 +38,7 @@ public class Programa {
 			// probar buscar colega
 			System.out.print("El usuario con id 3 es : ");
 			negocioColega.buscarColega(3);
+			negocioColega.borrarColega(2);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
